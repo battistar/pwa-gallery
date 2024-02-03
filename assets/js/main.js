@@ -47,6 +47,6 @@ const registerServiceWorker = async () => {
 
 window.addEventListener('load', async () => {
   await registerServiceWorker();
-
-  handleInstallDate();
 });
+
+handleInstallDate();
