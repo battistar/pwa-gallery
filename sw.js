@@ -1,6 +1,11 @@
 const CACHE_NAME = 'animals-v1';
 
-const assets = ['/', '/index.html', '/assets/js/main.js', '/assets/css/style.css'];
+const assets = [
+  '/pwa-gallery/',
+  '/pwa-gallery/index.html',
+  '/pwa-gallery/assets/js/main.js',
+  '/pwa-gallery/assets/css/style.css',
+];
 
 const preCache = async (assets) => {
   const cache = await caches.open(CACHE_NAME);
